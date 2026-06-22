@@ -5,7 +5,8 @@ import {
   Stethoscope, Brain, Baby, HeartPulse, Droplets, Droplet,
   Ambulance, Syringe, ScanLine, TestTube, Pill,
   GraduationCap, Clock, Heart, Receipt, Building2, CreditCard,
-  ShieldCheck, type LucideIcon,
+  ShieldCheck, Dumbbell, Wind, Microscope, Radiation, Scan,
+  Layers, Zap, Gauge, Wheat, type LucideIcon,
 } from "lucide-react";
 
 const map: Record<string, LucideIcon> = {
@@ -13,7 +14,8 @@ const map: Record<string, LucideIcon> = {
   Stethoscope, Brain, Baby, HeartPulse, Droplets, Droplet,
   Ambulance, Syringe, ScanLine, TestTube, Pill,
   GraduationCap, Clock, Heart, Receipt, Building2, CreditCard,
-  ShieldCheck,
+  ShieldCheck, Dumbbell, Wind, Microscope, Radiation, Scan,
+  Layers, Zap, Gauge, Wheat,
 };
 
 export default function Icon({

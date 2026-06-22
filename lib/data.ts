@@ -59,6 +59,16 @@ export const specialities = [
   { name: "Nephrology", sub: "Kidney care", icon: "Droplets", slug: "nephrology" },
   { name: "Neurology", sub: "Brain & nerves", icon: "Brain", slug: "neurology" },
   { name: "Hematology", sub: "Blood disorders", icon: "Droplet", slug: "hematology" },
+  { name: "Physiotherapy", sub: "Rehabilitation", icon: "Dumbbell", slug: "physiotherapy" },
+  { name: "Neurosurgery", sub: "Brain & spine surgery", icon: "Brain", slug: "neurosurgery" },
+  { name: "Pulmonary Medicine", sub: "Lung & respiratory", icon: "Wind", slug: "pulmonary-medicine" },
+  { name: "Laboratory Medicine", sub: "Pathology & diagnostics", icon: "Microscope", slug: "laboratory-medicine" },
+  { name: "Radiology", sub: "Imaging & diagnostics", icon: "Radiation", slug: "radiology" },
+  { name: "Urology", sub: "Urinary tract care", icon: "Scan", slug: "urology" },
+  { name: "Dermatology", sub: "Skin & hair", icon: "Layers", slug: "dermatology" },
+  { name: "Pain Clinic", sub: "Chronic pain management", icon: "Zap", slug: "pain-clinic" },
+  { name: "Diabetology", sub: "Diabetes & endocrinology", icon: "Gauge", slug: "diabetology" },
+  { name: "Dietetics", sub: "Nutrition & diet", icon: "Wheat", slug: "dietetics" },
 ];
 
 // Core facilities (the "what we do" tiles from the old site, upgraded)
