@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { motion, useReducedMotion } from "framer-motion";
 import { Calendar, MessageCircle, Phone, ShieldCheck, Clock, CreditCard, Home, Stethoscope } from "lucide-react";
 import { hospital, todayOPD } from "@/lib/data";
@@ -28,10 +29,20 @@ export default function Hero() {
   ];
 
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-forest-800 via-forest-700 to-forest-500">
-      {/* Ambient circles */}
-      <div className="pointer-events-none absolute -right-16 -top-24 h-80 w-80 rounded-full bg-white/[0.04]" />
-      <div className="pointer-events-none absolute right-24 -bottom-28 h-56 w-56 rounded-full bg-white/[0.03]" />
+    <section className="relative overflow-hidden bg-forest-900">
+      {/* Building photo background */}
+      <Image
+        src="/hospital-building.jpg"
+        alt="Vinamra Swaraj Hospital building"
+        fill
+        priority
+        className="object-cover object-center"
+        sizes="100vw"
+      />
+      {/* Dark green overlay so text stays legible */}
+      <div className="pointer-events-none absolute inset-0 bg-forest-900/70" />
+      {/* Subtle gradient fade at the bottom */}
+      <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-forest-900/60 via-transparent to-transparent" />
 
       <div className="container-x relative grid gap-10 py-14 md:py-20 lg:grid-cols-[1fr_320px] lg:items-center">
         {/* Left */}
