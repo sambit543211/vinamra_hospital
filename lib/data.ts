@@ -35,7 +35,7 @@ export const hospital = {
 
 export const stats = [
   { value: "30+", label: "Beds" },
-  { value: "16+", label: "Specialities" },
+  { value: "26+", label: "Specialities" },
   { value: "24/7", label: "Emergency" },
   { value: "10+", label: "Specialist doctors" },
   { value: "9+", label: "Insurance partners" },
